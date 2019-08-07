@@ -10,3 +10,5 @@ Added these nuget packages for WideWorldImporters.API.IntegrationTests project.
 What is the difference between unit tests and integration tests? For unit tests,
 we simulate all dependencies for Web API project and for integration tests,
 we run a process that simulates Web API execution, this means Http requests.
+
+For this project, integration tests will perform Http requests, each Http request will perform operations to an existing database in SQL Server instance. We'll work with a local instance of SQL Server, this can change according to your working environment, I mean the scope for integration tests.

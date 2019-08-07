@@ -12,3 +12,5 @@ we simulate all dependencies for Web API project and for integration tests,
 we run a process that simulates Web API execution, this means Http requests.
 
 For this project, integration tests will perform Http requests, each Http request will perform operations to an existing database in SQL Server instance. We'll work with a local instance of SQL Server, this can change according to your working environment, I mean the scope for integration tests.
+
+Here's a Link for asp.net core integrated Testshttps://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-2.1
